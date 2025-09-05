@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyen Nhut Minh | Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nguyen Nhut Minh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Me -->
+    <section id="hero" class="d-flex align-items-center justify-content-center text-white"
+        style="height:100vh; background: linear-gradient(to right, #0f2027, #203a43, #2c5364);">
+        <div class="text-center">
+            <h1>Hello, I'm Nguyen Nhut Minh</h1>
+            <p>Web & Mobile Developer</p>
+            <a href="#projects" class="btn btn-primary btn-lg mt-3">See My Work</a>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h4>Technical Skills</h4>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge" style="background-color:#E34F26; color:white;">
+                            <i class="fab fa-html5"></i>
+                            HTML
+                        </span>
+                        <span class="badge" style="background-color:#1572B6; color:white;">
+                            <i class="fab fa-css3-alt"></i>
+                            CSS
+                        </span>
+                        <span class="badge" style="background-color:#F7DF1E; color:black;">
+                            <i class="fab fa-js-square"></i>
+                            JavaScript
+                        </span>
+                        <span class="badge" style="background-color:#777BB4; color:white;">
+                            <i class="fab fa-php"></i>
+                            PHP
+                        </span>
+                        <span class="badge" style="background-color:#61DAFB; color:black;">
+                            <i class="fab fa-react"></i>
+                            ReactJS
+                        </span>
+                        <span class="badge" style="background-color:#339933; color:white;">
+                            <i class="fab fa-node-js"></i>
+                            NodeJS
+                        </span>
+                        <span class="badge" style="background-color:#FF2D20; color:white;">
+                            <i class="fas fa-laptop-code"></i>
+                            Laravel
+                        </span>
+                        <span class="badge" style="background-color:#4479A1; color:white;">
+                            <i class="fas fa-database"></i>
+                            MySQL
+                        </span>
+                        <span class="badge" style="background-color:#47A248; color:white;">
+                            <i class="fas fa-database"></i>
+                            MongoDB
+                        </span>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 mb-4">
+                    <h4>Soft Skills</h4>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-secondary p-2">Teamwork</span>
+                        <span class="badge bg-dark p-2">Communication</span>
+                        <span class="badge bg-success p-2">Problem Solving</span>
+                        <span class="badge bg-info text-dark p-2">Time Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card h-100">
+                        <img src="./assets/images/travel-booking.png" class="card-img-top" alt="Travel booking">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Travel Booking Website</h5>
+
+                            <!-- Tech stack badges -->
+                            <div class="mb-2">
+                                <span class="badge bg-primary me-1">HTML</span>
+                                <span class="badge bg-info text-dark me-1">CSS</span>
+                                <span class="badge bg-warning text-dark me-1">JavaScript</span>
+                                <span class="badge bg-success me-1">NodeJS</span>
+                                <span class="badge bg-primary me-1">ReactJS</span>
+                            </div>
+
+                            <!-- Description with max 2 lines -->
+                            <p class="card-text text-truncate-2">Developed Travel booking website project according to
+                                client-server model. Implemented responsive design, booking forms, and user
+                                authentication.</p>
+
+                            <a href="https://github.com/nhutminhnguyen273/travel-booking-frontend.git" target="_blank"
+                                class="btn btn-primary mt-auto">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card h-100">
+                        <img src="./assets/images/ecommerce.jpg" class="card-img-top" alt="eCommerce">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Fashion Shop Website</h5>
+
+                            <!-- Tech stack badges -->
+                            <div class="mb-2">
+                                <span class="badge bg-primary me-1">HTML</span>
+                                <span class="badge bg-info text-dark me-1">CSS</span>
+                                <span class="badge bg-warning text-dark me-1">JavaScript</span>
+                                <span class="badge bg-secondary me-1">Java</span>
+                                <span class="badge bg-success me-1">Spring boot</span>
+                                <span class="badge" style="background-color:#4479A1; color:white;">MySQL</span>
+                            </div>
+
+                            <!-- Description with max 2 lines -->
+                            <p class="card-text text-truncate-2">Developed Fashion Shop website project following MVC
+                                model.</p>
+
+                            <a href="https://github.com/nhutminhnguyen273/FashionShopWebsite.git" target="_blank"
+                                class="btn btn-primary mt-auto">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="card h-100">
+                        <img src="./assets/images/e-learning.jpg" class="card-img-top" alt="eCommerce">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Exam Data Analysis</h5>
+
+                            <!-- Tech stack badges -->
+                            <div class="mb-2">
+                                <span class="badge" style="background-color:#339933; color:white;">C#</span>
+                                <span class="badge" style="background-color:#777BB4; color:white;">ABP Framework</span>
+                                <span class="badge" style="background-color:#cae30b; color:white;">SQL Server</span>
+                            </div>
+
+                            <!-- Description with max 2 lines -->
+                            <p class="card-text text-truncate-2">
+                                Developed RESTful APIs project to analyze multiple choice exam data with Microservices architecture.
+                            </p>
+
+                            <a href="https://github.com/nhutminhnguyen273/ExamDAOnAbp.git" target="_blank"
+                                class="btn btn-primary mt-auto">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Your name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" id="message" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        &copy; 2025 Nguyen Nhut Minh. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+
+</html>
