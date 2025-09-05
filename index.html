@@ -116,11 +116,11 @@
 
                             <!-- Tech stack badges -->
                             <div class="mb-2">
-                                <span class="badge bg-primary me-1">HTML</span>
-                                <span class="badge bg-info text-dark me-1">CSS</span>
-                                <span class="badge bg-warning text-dark me-1">JavaScript</span>
-                                <span class="badge bg-success me-1">NodeJS</span>
-                                <span class="badge bg-primary me-1">ReactJS</span>
+                                <span class="badge me-1"
+                                    style="background-color:#F7DF1E; color:black;">JavaScript</span>
+                                <span></span>
+                                <span class="badge me-1" style="background-color:#339933; color:white;">NodeJS</span>
+                                <span class="badge me-1" style="background-color:#61DAFB; color:black;">ReactJS</span>
                             </div>
 
                             <!-- Description with max 2 lines -->
@@ -142,11 +142,11 @@
 
                             <!-- Tech stack badges -->
                             <div class="mb-2">
-                                <span class="badge bg-primary me-1">HTML</span>
-                                <span class="badge bg-info text-dark me-1">CSS</span>
-                                <span class="badge bg-warning text-dark me-1">JavaScript</span>
-                                <span class="badge bg-secondary me-1">Java</span>
-                                <span class="badge bg-success me-1">Spring boot</span>
+                                <span class="badge" style="background-color:#E34F26; color:white;">HTML</span>
+                                <span class="badge" style="background-color:#1572B6; color:white;">CSS</span>
+                                <span class="badge" style="background-color:#F7DF1E; color:black;">JavaScript</span>
+                                <span class="badge" style="background-color:#007396; color:white;">Java</span>
+                                <span class="badge" style="background-color:#6DB33F; color:white;">Spring boot</span>
                                 <span class="badge" style="background-color:#4479A1; color:white;">MySQL</span>
                             </div>
 
@@ -175,7 +175,8 @@
 
                             <!-- Description with max 2 lines -->
                             <p class="card-text text-truncate-2">
-                                Developed RESTful APIs project to analyze multiple choice exam data with Microservices architecture.
+                                Developed RESTful APIs project to analyze multiple choice exam data with Microservices
+                                architecture.
                             </p>
 
                             <a href="https://github.com/nhutminhnguyen273/ExamDAOnAbp.git" target="_blank"
@@ -188,26 +189,56 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="py-5">
+    <section id="contact" class="py-5 bg-light">
         <div class="container">
-            <h2 class="text-center mb-4">Contact</h2>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Your name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your name">
+            <h2 class="text-center mb-5" data-aos="fade-down">Contact Me</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded shadow-sm" data-aos="fade-right">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Nguyễn Văn A">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email"
+                                    placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="5"
+                                    placeholder="Your message..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Your email">
+
+                <!-- Contact Info -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded shadow-sm h-100 d-flex flex-column justify-content-center"
+                        data-aos="fade-left">
+                        <h4 class="mb-4 text-center">Contact Info</h4>
+
+                        <p class="fs-5 mb-3 text-center">
+                            <i class="fas fa-envelope me-2 text-primary"></i>
+                            <a href="mailto:nhutminhnguyen293@gmail.com"
+                                class="text-decoration-none contact-link">nhutminhnguyen293@gmail.com</a>
+                        </p>
+
+                        <p class="fs-5 mb-3 text-center">
+                            <i class="fab fa-github me-2 text-dark"></i>
+                            <a href="https://github.com/nhutminhnguyen273" target="_blank"
+                                class="text-decoration-none contact-link">nhutminhnguyen273</a>
+                        </p>
+                    </div>
                 </div>
-                <div class="mb-3">
-                    <label for="message" class="form-label">Message</label>
-                    <textarea name="message" id="message" class="form-control"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send</button>
-            </form>
+            </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
